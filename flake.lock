@@ -1,0 +1,108 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "id": "flake-utils",
+        "type": "indirect"
+      }
+    },
+    "nix-pandoc": {
+      "inputs": {
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1669659805,
+        "narHash": "sha256-8Kzx+MJY0YjLAu5pt/DhFNMN+PybQZW2Jqe9lr23SQA=",
+        "owner": "serokell",
+        "repo": "nix-pandoc",
+        "rev": "8e8c13e59ad40e28c1d91b2bc532e3125ff6de49",
+        "type": "github"
+      },
+      "original": {
+        "owner": "serokell",
+        "repo": "nix-pandoc",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1667318090,
+        "narHash": "sha256-AvxgT+t1BWZs8IfdseHl8+7wvWWm9pvysupMT9wXdH0=",
+        "owner": "serokell",
+        "repo": "nixpkgs",
+        "rev": "4bce79cf151aad3c0bed46a32bdb4b165f00cb7e",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1669542132,
+        "narHash": "sha256-DRlg++NJAwPh8io3ExBJdNW7Djs3plVI5jgYQ+iXAZQ=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "a115bb9bd56831941be3776c8a94005867f316a7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "pandoc-lua-filters": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1668982248,
+        "narHash": "sha256-eN5NVjdSfRs9HGDG38cBuBzdxRcjprC9iXC8nu2oWU0=",
+        "owner": "pandoc",
+        "repo": "lua-filters",
+        "rev": "1660794b991c3553968beb993f5aabb99b317584",
+        "type": "github"
+      },
+      "original": {
+        "owner": "pandoc",
+        "repo": "lua-filters",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nix-pandoc": "nix-pandoc",
+        "nixpkgs": "nixpkgs_2",
+        "pandoc-lua-filters": "pandoc-lua-filters"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
